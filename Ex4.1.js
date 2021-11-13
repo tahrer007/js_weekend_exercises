@@ -7,7 +7,7 @@ function Fibonacci (x,y)
     const arr =  [x,y];
     arr
     let sum ; 
-    for (let i = 0 ; i< 10 ;i++)
+    for (let i = 0 ; i< maxLength ;i++)
     { 
 
          sum = arr[i]+arr[i+1];
