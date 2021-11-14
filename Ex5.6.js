@@ -1,8 +1,8 @@
 //Ex5.6 - Mask
 
-let Password = 12345 ; 
+let Password = 123 ; 
 function maskPassword (Password)
-{
+{       if (Password.length<=4) return  Password ;
         let length = Password.length ;
         let masked = '#'.repeat(length-4);
         let unmasked = Password.slice(length-4, length) ; 
